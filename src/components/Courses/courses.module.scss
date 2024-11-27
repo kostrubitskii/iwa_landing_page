@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20rem;
+  padding: 50rem 290rem;
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  font-size: 42rem;
+  font-weight: 500;
+  line-height: 63rem;
+  text-align: left;
+  color: #003366;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20rem;
+}

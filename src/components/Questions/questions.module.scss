@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 16px;
+  gap: 20rem;
+  height: 611rem;
+}
+
+.card {
+  border: 1px solid #003366;
+  border-radius: 8rem;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  padding: 35rem 40rem;
+  justify-content: space-between;
+}
+
+.title {
+  width: 612rem;
+  overflow-wrap: break-word;
+  font-family: "Roboto", sans-serif;
+  font-size: 20rem;
+  font-weight: 500;
+  line-height: 30rem;
+  text-align: left;
+}
+
+.button {
+  border: none;
+  background: none;
+}
+
+.imageButton {
+  width: 40rem;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 35rem;
+}
+
+.border {
+  width: 612rem;
+  border-bottom: 1px solid #003366;
+}
+
+.content {
+  padding: 40rem 35rem 40rem 0;
+  width: 100%;
+  overflow-wrap: break-word;
+  font-family: "Roboto", sans-serif;
+  font-size: 18rem;
+  font-weight: 400;
+  line-height: 27rem;
+  text-align: left;
+}
+
+

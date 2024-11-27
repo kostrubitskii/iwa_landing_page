@@ -1,0 +1,60 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24rem;
+  padding-inline: 290rem;
+  padding-bottom: 50rem;
+}
+
+.background {
+  display: flex;
+  padding: 0 80rem;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16rem;
+  background-color: #003366;
+  color: white;
+  border-radius: 20rem;
+}
+
+.header {
+  font-family: "Poppins", sans-serif;
+  font-size: 48rem;
+  font-weight: 600;
+  line-height: 57.6rem;
+  text-align: left;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 40rem;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18rem;
+  font-weight: 400;
+  line-height: 27rem;
+  text-align: left;
+}
+
+.button {
+  width: 190rem;
+  padding: 14rem 20rem;
+  border: none;
+  border-radius: 14rem;
+  background-color: #fff;
+  color: #003366;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #041b2a;
+    color: #fff;
+  }
+}
+
+.imageBlock img {
+  width: 100%;
+}

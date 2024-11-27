@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 50rem 290rem;
+  min-height: 100vh;
+}
+
+.header {
+  margin-bottom: 20rem;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 42rem;
+  font-weight: 500;
+  line-height: 63rem;
+  text-align: left;
+  color: #003366;
+}
+
+.wrapper {
+  display: flex;
+  gap: 24rem;
+}

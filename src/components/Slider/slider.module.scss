@@ -1,0 +1,119 @@
+.card {
+  display: flex;
+  border: 1px solid black;
+  padding: 20rem 78rem 20rem 20rem;
+  width: 100%;
+  border-radius: 12rem;
+  gap: 20rem;
+}
+
+.image {
+  height: 100%;
+  width: 200rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16rem;
+}
+
+.name {
+  font-family: "Poppins", sans-serif;
+  font-size: 20rem;
+  font-weight: 500;
+  line-height: 30rem;
+  text-align: left;
+}
+
+.role {
+  font-family: "Roboto", sans-serif;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 24rem;
+  text-align: left;
+}
+
+.description {
+  font-family: "Roboto",sans-serif;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 24rem;
+  text-align: left;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 2rem;
+}
+
+.stars {
+  display: flex;
+  margin-bottom: 0;
+  align-items: center;
+  justify-content: center;
+
+  &__star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16rem;
+    height: 16rem;
+    margin-right: 4rem;
+
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  @for $i from 0 through 5 {
+    &--#{$i} {
+      .stars__star:nth-child(-n + #{$i}) {
+        background-image: url("../../ui/Star.svg");
+      }
+    }
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin-top: 50rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 12rem 14rem;
+  gap: 30rem;
+  border: 1px solid #c2d1e0;
+  border-radius: 100rem;
+  width: max-content;
+}
+
+.navField {
+  display: flex;
+  gap: 2rem;
+}
+
+.navigation {
+  display: flex;
+  width: 13rem;
+}
+
+.button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.arrowButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+}

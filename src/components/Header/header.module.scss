@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  padding: 11rem 290rem;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 48rem;
+  height: 48rem;
+}
+
+.wrapper {
+  display: flex;
+  gap: 48rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36rem;
+}
+
+.buttons {
+  position: relative;
+  padding: 5rem 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16rem;
+  color: black;
+}
+
+.buttons:hover,
+.buttons:focus {
+  color: #003366;
+}
+
+.buttons::after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 2rem;
+  content: "";
+  background-color: #003366;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease-in-out;
+}
+
+.buttons:hover::after,
+.buttons:focus::after {
+  width: 100%;
+}
+
+.login {
+  padding: 14rem 30rem;
+  color: #fff;
+  background-color: #003366;
+  border: none;
+  border-radius: 14px;
+  line-height: 30px;
+  font-size: 20rem;
+  font-family: "Roboto", sans-serif;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: #041b2a;
+  }
+}

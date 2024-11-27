@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 70rem 290rem;
+  background-color: #e0e7ef;
+  gap: 20rem;
+
+}
+
+.title {
+  padding: 30rem 50rem;
+  background-color: #fff;
+  border-radius: 16rem;
+}
+
+.header {
+  font-family: "Poppins", sans-serif;
+  color: #003366;
+  font-size: 42rem;
+  font-weight: 500;
+  line-height: 63rem;
+  text-align: left;
+}
+
+.block {
+  display: flex;
+  gap: 23rem;
+}
+
+

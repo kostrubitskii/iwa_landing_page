@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  padding: 50rem 290rem;
+  gap: 24px;
+  background: #003366;
+}
+
+.header {
+  text-align: left;
+  color: #fbfbfb;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 42rem;
+  font-weight: 500;
+  line-height: 63rem;
+  text-transform: uppercase;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18rem;
+  font-weight: 400;
+  line-height: 27rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24rem;
+}
+
+.input {
+  width: 658rem;
+  height: 64rem;
+  padding: 18rem 14rem;
+  border-radius: 4px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18rem;
+  font-weight: 400;
+  line-height: 27rem;
+  text-align: left;
+}
+
+.button {
+  width: 213rem;
+  height: 58rem;
+  padding: 14rem 30rem 14rem 30rem;
+  gap: 10rem;
+  border-radius: 14px;
+  border: none;
+  color: #003366;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 20rem;
+  font-weight: 400;
+  line-height: 30rem;
+  text-align: left;
+
+  &:hover {
+    background-color: #041b2a;
+    color: #fff;
+  }
+}
