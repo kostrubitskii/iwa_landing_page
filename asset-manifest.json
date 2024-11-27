@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/iwa_landing_page/static/css/main.c3b94394.css",
+    "main.js": "/iwa_landing_page/static/js/main.a98811a0.js",
+    "static/js/453.6ff99621.chunk.js": "/iwa_landing_page/static/js/453.6ff99621.chunk.js",
+    "static/media/workers.png": "/iwa_landing_page/static/media/workers.05cb3f077f5dc2da1974.png",
+    "static/media/Img.png": "/iwa_landing_page/static/media/Img.ef26e55ae215c22e8561.png",
+    "static/media/Roboto-Regular.ttf": "/iwa_landing_page/static/media/Roboto-Regular.27f62b53b93858475a7f.ttf",
+    "static/media/Roboto-Bold.ttf": "/iwa_landing_page/static/media/Roboto-Bold.d50a80138ec4f2fb5e9f.ttf",
+    "static/media/Roboto-Light.ttf": "/iwa_landing_page/static/media/Roboto-Light.839cb7309f46fed11436.ttf",
+    "static/media/Poppins-Light.ttf": "/iwa_landing_page/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Poppins-Regular.ttf": "/iwa_landing_page/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Bold.ttf": "/iwa_landing_page/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/girl.png": "/iwa_landing_page/static/media/girl.f50364a5c296c393d43c.png",
+    "static/media/boy.png": "/iwa_landing_page/static/media/boy.5922edbb44c549fb1421.png",
+    "static/media/language.svg": "/iwa_landing_page/static/media/language.ac4bdeb3b904f3baf77354d9c0fb5215.svg",
+    "static/media/rocket_icon.svg": "/iwa_landing_page/static/media/rocket_icon.ab345150730dfa733b3ff71f36115b7f.svg",
+    "static/media/lamp_icon.svg": "/iwa_landing_page/static/media/lamp_icon.65f492e6909452ad97e7b5e4b3d5073f.svg",
+    "static/media/hours.svg": "/iwa_landing_page/static/media/hours.18446b3b48a8cee8f35141ff6ab5f76f.svg",
+    "static/media/modules.svg": "/iwa_landing_page/static/media/modules.c7f9ed97e7030e317f99e87a475cb3cb.svg",
+    "static/media/check_icon.svg": "/iwa_landing_page/static/media/check_icon.e82650c5ee43f245fe1030da603a2bbb.svg",
+    "static/media/book_icon.svg": "/iwa_landing_page/static/media/book_icon.a3c5ac5342accb4db0011214556d601f.svg",
+    "static/media/online.svg": "/iwa_landing_page/static/media/online.64999ce9ec2701c5e9326327868ebd77.svg",
+    "static/media/star_icon.svg": "/iwa_landing_page/static/media/star_icon.2f3728c07ca2a2e429b510935b46283d.svg",
+    "static/media/plus.svg": "/iwa_landing_page/static/media/plus.27bd942f31f05cb75c9a25e129e2abb7.svg",
+    "static/media/Star.svg": "/iwa_landing_page/static/media/Star.88cba8b2bab679a91f89.svg",
+    "index.html": "/iwa_landing_page/index.html",
+    "static/media/arrow.svg": "/iwa_landing_page/static/media/arrow.204adbd70e7ab31e228de37d442dd0f3.svg",
+    "static/media/minus.svg": "/iwa_landing_page/static/media/minus.15814ffbe44d5982df9c24e1d2f9bbca.svg",
+    "static/media/activeNav.svg": "/iwa_landing_page/static/media/activeNav.ec379b22ee80f15f7cdd931ce210e97b.svg",
+    "static/media/offButton.svg": "/iwa_landing_page/static/media/offButton.5d96c3e2171a863c8e24e7f9bbc5f478.svg",
+    "main.c3b94394.css.map": "/iwa_landing_page/static/css/main.c3b94394.css.map",
+    "main.a98811a0.js.map": "/iwa_landing_page/static/js/main.a98811a0.js.map",
+    "453.6ff99621.chunk.js.map": "/iwa_landing_page/static/js/453.6ff99621.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3b94394.css",
+    "static/js/main.a98811a0.js"
+  ]
+}
